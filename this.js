@@ -12,5 +12,6 @@ const obj={
 function f5(){
     console.log(this);
 }
+console.log(this==globalThis);
 const test1=obj.f1
 test1();
